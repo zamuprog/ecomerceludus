@@ -1,0 +1,12 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+.count{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    background-color: rgb(218, 245, 245);
+}
