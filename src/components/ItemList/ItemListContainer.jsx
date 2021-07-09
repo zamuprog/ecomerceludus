@@ -1,16 +1,12 @@
-import React, {useState} from 'react';
-import ItemCount from '../itemCount/itemCount'
+import React from 'react';
+import ItemList from '../ItemList/ItemList'
 import './ItemListContainer.css'
 
 
 const ItemListContainer = () => {
-    const stock = 10;
-    const [cantidadCompra, setCantidadCompra] = useState();
-
     return (
         <div className="itemCount">
-        <ItemCount stock={stock} onAdd={setCantidadCompra}/>
-        {cantidadCompra >0 && <p>Se agregaron {cantidadCompra} articulos, al carrito de compras</p>}
+        <ItemList />
         </div>
     );
 }
