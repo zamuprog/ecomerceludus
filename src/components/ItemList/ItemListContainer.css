@@ -1,3 +1,9 @@
 .itemCount{
     margin-left: 50%;
 }
+
+.contenedorItem{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}

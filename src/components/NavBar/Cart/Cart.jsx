@@ -5,6 +5,7 @@ import Carrito from '../../../assets/carri.png'
 const Cart = () =>{
     return(
         <img src={Carrito} />
+        
     )
 
 }

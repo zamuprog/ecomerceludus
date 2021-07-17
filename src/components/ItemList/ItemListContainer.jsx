@@ -5,7 +5,7 @@ import './ItemListContainer.css'
 
 const ItemListContainer = () => {
     return (
-        <div className="itemCount">
+        <div className="contenedorItem">
         <ItemList />
         </div>
     );
